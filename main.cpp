@@ -3,8 +3,6 @@
 #include "Mersedes.h"
 #include <fstream>
 #include <VAZ.h>
-//#include <string>
-
 
 int main() {
     std::vector<Car *> cars;
