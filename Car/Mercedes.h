@@ -2,23 +2,23 @@
 // Created by Kostantin Alaev on 08.11.2020.
 //
 
-#ifndef OOP_LAB2_1_MERSEDES_H
-#define OOP_LAB2_1_MERSEDES_H
+#ifndef OOP_LAB2_1_Mercedes_H
+#define OOP_LAB2_1_Mercedes_H
 
 #include <iostream>
 #include "Car.h"
 
-class Mersedes : public Car {
+class Mercedes : public Car {
 public:
-    explicit Mersedes(std::string model)
+    explicit Mercedes(std::string model)
         : Car(model) {
 
     }
 
-    ~Mersedes() {
+    ~Mercedes() {
         std::cout << getStringStream().rdbuf() << std::endl;
     }
 };
 
 
-#endif //OOP_LAB2_1_MERSEDES_H
+#endif //OOP_LAB2_1_Mercedes_H

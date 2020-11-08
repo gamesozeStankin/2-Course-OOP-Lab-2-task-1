@@ -3,13 +3,13 @@
 //
 
 #include "gtest/gtest.h"
-#include "Mersedes.h"
+#include "Mercedes.h"
 
 TEST(BasicTest, UsageTest) {
-    Mersedes car1("123");
+    Mercedes car1("123");
 
     ASSERT_STREQ(car1.getStringStream().str().c_str(),
-                 "Brand: Mersedes\tmodel: 123");
+                 "Brand: Mercedes\tmodel: 123");
 }
 
 int main() {

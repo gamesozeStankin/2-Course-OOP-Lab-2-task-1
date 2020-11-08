@@ -1,8 +1,7 @@
-Mersedes 320
-Mersedes 222
-Mersedes 220
-Mersedes 221
-Mersedes 321
+Mercedes 222
+Mercedes 220
+Mercedes 221
+Mercedes 321
 VAZ 2109
 VAZ 2108
 VAZ 2107

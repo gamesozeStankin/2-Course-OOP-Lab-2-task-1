@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "Mersedes.h"
+#include "Mercedes.h"
 #include <fstream>
 #include <VAZ.h>
 
@@ -12,8 +12,8 @@ int main() {
         std::string lineOfFile;
         while (std::getline(fileIn, lineOfFile)) {
             std::string brand = lineOfFile.substr(0, lineOfFile.find(" "));
-            if (brand == "Mersedes") {
-                cars.push_back(new Mersedes(lineOfFile.substr(lineOfFile.find(" ") + 1)));
+            if (brand == "Mercedes") {
+                cars.push_back(new Mercedes(lineOfFile.substr(lineOfFile.find(" ") + 1)));
             } else if (brand == "VAZ") {
                 cars.push_back(new VAZ(lineOfFile.substr(lineOfFile.find(" ") + 1)));
             }
